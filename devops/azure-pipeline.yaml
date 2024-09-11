@@ -1,0 +1,24 @@
+name: $(SourceBranchName)_$(date:yyyyMMdd)$(rev:.r)_$(Build.SourceVersion)
+
+trigger:
+- development
+- release
+- master
+
+pool:
+  name: Default
+
+resources:
+  repositories:
+  - repository: PipelineTemplatesRepo
+    name: OkeEnvironment/_git/devops-templates
+    type: git
+    ref: refs/heads/master
+
+extends:
+  template: pipeline.yaml@PipelineTemplatesRepo
+  parameters:
+    builder: 'maven'    # obligatorio - maven | npm | gradle | pip
+    manifest: 'manifest' # opcional - manifest
+    projectPath: '.' # opcional - .
+    dockerfile: 'Dockerfile' # opcional - Dockerfile
