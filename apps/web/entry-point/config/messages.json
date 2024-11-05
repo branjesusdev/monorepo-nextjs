@@ -1,0 +1,83 @@
+{
+  "dashboard": {
+    "banking": {
+      "generic": {
+        "finalizeWithdrawl": "FINALIZAR RETIRO"
+      },
+      "stepper": {
+        "deposit": {
+          "form": "Ingresa los datos del depósito a realizar",
+          "confirm": "Confirma los datos del deposito antes de continuar",
+          "summary": "¡Depósito exitoso!",
+          "newDeposit": "HACER OTRO DEPÓSITO",
+          "newWithdrawl": "HACER OTRO RETIRO",
+          "loader": {
+            "title": "Estamos realizando el deposito...",
+            "description": "Por favor, no cierres la aplicación, solo va a tardar unos segundos."
+          }
+        },
+        "withdrawl": {
+          "form": "Ingresa los datos del retiro a realizar",
+          "confirm": "Confirma los datos del retiro antes de continuar",
+          "summary": "¡Retiro exitoso!",
+          "newWithdrawl": "HACER OTRO RETIRO",
+          "loader": {
+            "title": "Estamos realizando el retiro...",
+            "description": "Por favor, no cierres la aplicación, solo va a tardar unos segundos."
+          }
+        },
+        "payment": {
+          "form": "Ingresa los datos del producto bancario a pagar",
+          "confirm": "Confirma los datos del pago antes de continuar",
+          "summary": "¡Pago exitoso!",
+          "newPayment": "HACER OTRO PAGO",
+          "loader": {
+            "title": "Estamos realizando el pago...",
+            "description": "Por favor, no cierres la aplicación, solo va a tardar unos segundos."
+          }
+        },
+        "backHome": "IR AL INICIO",
+        "verificationCode": "El cliente te dará un &nbsp;<strong>código de seguridad</strong> &nbsp; de 8 números. Escríbelo a continuación."
+      },
+      "alert": {
+        "warningDeposit": "Una vez hayas enviado el deposito no podrás hacer cambios.",
+        "successDeposit": "El depósito fue exitoso",
+        "warningWithdrawl": "Una vez hayas enviado el retiro no podrás hacer cambios.",
+        "successWithdrawl": "El retiro fue exitoso",
+        "warningPayment": "Una vez hayas enviado el pago no podrás hacer cambios.",
+        "successPayment": "El pago fue exitoso"
+      },
+
+      "messages": {
+        "notFound": {
+          "title": "No encontramos un producto bancario asociado a los datos que ingresaste",
+          "description": "No encontramos un producto bancario asociado a los datos que ingresaste"
+        }
+      }
+    }
+  },
+  "generics": {
+    "button": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "next": "Continuar",
+      "back": "Volver",
+      "send": "Enviar",
+      "print": "Imprimir",
+      "download": "Descargar",
+      "uppercase": {
+        "cancel": "CANCELAR",
+        "confirm": "CONFIRMAR",
+        "next": "CONTINUAR",
+        "back": "VOLVER",
+        "send": "ENVIAR",
+        "retry": "VOLVER A INTENTAR"
+      }
+    },
+    "messages": {
+      "loading": {
+        "cargando": "Cargando..."
+      }
+    }
+  }
+}

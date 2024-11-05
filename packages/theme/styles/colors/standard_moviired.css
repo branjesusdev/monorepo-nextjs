@@ -1,0 +1,153 @@
+:root {
+
+  --font-family: 'Lato', 'Roboto', 'Arial', sans-serif;
+
+  /* INPUTS */
+
+  --input-bg : var(--neutral-0, #FFFFFF);
+  --input-text : var(--azul-ocano-100, #1F5278);
+  --input-focus : var(--azul-ocano-100, #1F5278);
+  --input-hover : currentColor;
+  --input-error : var(--error-light, #F04438);
+  --input-default : var(--neutral-60, #979797);
+  --input-disabled-border : var(--newtral-60, #979797);
+  --input-disabled-bg : var(--neutral-20, #EFEFEF);
+  --input-disabled-color : var(--neutral-60, #979797);
+  --input-shadow-success : var(--azul-oceano-40, #7997AE);
+  --input-shadow-error : var(--error-light-5, #FEE4E2);
+
+  --input-label-color : var(--azul-oceano-120, #0D2E4F);
+  --input-adornment-color : var(--azul-oceano-120, #0D2E4F);
+  --input-message-color : var(--azul-oceano-120, #0D2E4F);
+  --input-message-error : var(--error-light, #F04438);
+
+
+  /* SELECT */
+
+  --select-bg : var(--neutral-0);
+  --select-text : var(--azul-oceano-100);
+  --select-focus : var(--azul-oceano-100);
+  --select-hover : currentColor;
+  --select-error : var(--error-light);
+  --select-default : var(--neutral-60);
+  --select-disabled-border : var(--neutral-60);
+  --select-disabled-bg : var(--neutral-20);
+  --select-disabled-color : var(--neutral-60);
+  --select-shadow-success : var(--azul-oceano-40);
+  --select-shadow-error : var(--error-light-5);
+
+  --select-label-color : var(--azul-oceano-120);
+  --select-adornment-color : var(--azul-oceano-120);
+  --select-message-color : var(--azul-oceano-120);
+  --select-message-error : var(--error-light);
+
+  --select-listbox-bg : var(--neutral-0);
+  --select-listbox-hover : var(--neutral-20);
+  --select-listbox-selected : var(--azul-oceano-100);
+  --select-listbox-border : #DCDFE4;
+  --select-listbox-text : var(--azul-oceano-100);
+
+  /* CHECKBOX */
+
+  --checkbox-border : var(--neutral-60);
+  --checkbox-bg : var(--ocean-green-100);
+
+
+  /* RADIO */
+
+  --radio-border : var(--magenta-100);
+  --radio-bg : var(--magenta-100);
+  --radio-text-group : var(--azul-oceano-100);
+  --radio-text-checked-group : var(--magenta-100);
+  --radio-color-checked : var(--magenta-100);
+  --radio-color-unchecked : var(--azul-oceano-100);
+
+  /* BUTTONS */
+
+  --button-primary-color : var(--primary);
+  --button-secondary-color : var(--ui-secondary);
+  --button-error-color : var(--danger);
+  --button-warning-color : var(--warning-main);
+  --button-info-color : var(--info-main);
+  --button-success-color : var(--success-main);
+  --button-inherit-color : var(--neutral-40);
+  
+
+  --button-filled-bg: var(--magenta-100);
+  --button-filled-hover : var(--magenta-120);
+  --button-filled-pressed : var(--magenta-140);
+  --button-filled-disabled : var(--magenta-20);
+  --button-filled-loading : var(--magenta-100);
+  --button-filled-color : var(--neutral-0);
+
+
+  --button-outlined-bg : var(--neutral-0);
+  --button-outlined-hover : var(--magenta-5);
+  --button-outlined-pressed : var(--magenta-10);
+  --button-outlined-disabled-bg : var(--neutral-0);
+  --button-outlined-disabled-color : var(--neutral-60);
+  --button-outlined-color : var(--magenta-100);
+  --button-outlined-border : var(--magenta-100);
+
+  --button-text-bg : var(--neutral-0);
+  --button-text-hover : var(--magenta-5);
+  --button-text-pressed : var(--magenta-10);
+  --button-text-disabled-bg : var(--neutral-0);
+  --button-text-disabled-color : var(--neutral-60);
+  --button-text-color : var(--magenta-100);
+
+  --button-small: clamp(0.70rem, 1vw, 14px);
+  --button-medium: clamp(1rem, 1.2vw, 18px);
+  --button-large: clamp(1.2rem, 1.5vw, 24px);
+
+
+  /* SPAN */
+
+  --span-error : var(--danger);
+  --span-balance : var(--semantic-success-light);
+
+  /* TOAST */
+
+  --toast-error-title : var(--neutral-100);
+  --toast-error-subtitle : var(--neutral-100);
+  --toast-error-icon : var(--danger);
+
+  /* TABS */
+
+  --tab-menu-active : var(--primary);
+  --active-element-default : var(--active-default);
+
+  /* STEPPER */
+
+  --stepper-inactive : var(--neutral-20);
+  --stepper-active : var(--ui-secondary);
+  --stepper-check : var(--azul-oceano-5);
+  --stepper-color : var(--azul-oceano-100);
+
+  /* BREADCRUMB */
+
+  --breadcrumb-color : var(--azul-oceano-100);
+  --breadcrumb-color-active : var(--azul-oceano-100);
+
+  /* TEXT */
+
+  --text-primary : var(--azul-oceano-100);
+  --text-secondary : var(--magenta-100);
+  --text-error : var(--danger);
+  --text-warning : var(--warning-main);
+  --text-info : var(--info-main);
+  --text-success : var(--success-main);
+  --text-disabled : var(--neutral-60);
+
+
+  /* TABLE */
+
+  --table-cell-text-color : var(--azul-oceano-100);
+  --table-cell-text-size : clamp(1rem, 1.5vw, 24px);
+
+
+  /* GENERIC */
+
+  --divider-color : var(--neutral-40);
+
+}

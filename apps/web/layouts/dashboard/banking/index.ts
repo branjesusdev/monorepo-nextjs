@@ -1,0 +1,1 @@
+export { BankingProductLayout } from './BankingProductLayout';

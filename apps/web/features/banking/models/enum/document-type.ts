@@ -1,0 +1,4 @@
+export enum DocumentType {
+    DOCUMENT_NUMBER = 'DOCUMENT_NUMBER',
+    OBLIGATION_NUMBER = 'OBLIGATION_NUMBER',
+}

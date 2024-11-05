@@ -1,0 +1,52 @@
+:root {
+
+  
+    /* COLORS */
+    --magenta-100: #de2887;
+    --magenta-80: #ff4eab;
+    --magenta-20: #ffbddf;
+    --magenta-5: #ffeaf5;
+    --magenta-120: #c91c76;
+    --magenta-140: #b01069;
+    --magenta-10: #ffdcee;
+    --azul-oceano-100: #1f5278;
+    --azul-oceano-80: #3e749d;
+    --azul-oceano-40: #7997ae;
+    --azul-oceano-10: #81b1d5;
+    --azul-oceano-5: #6d8ba2;
+    --azul-oceano-120: #0d2e4f;
+    --neutral-100: #000000;
+    --neutral-80: #4a4a4a;
+    --neutral-60: #979797;
+    --neutral-40: #d8d8d8;
+    --neutral-20: #efefef;
+    --neutral-10: #f5f5f5;
+    --neutral-0: #ffffff;
+    --error-light: #f04438;
+    --error-light-5: #fee4e2;
+    --success-main: #15b79f;
+    --success-light: #ccfbef;
+    --warning-main: #fb9c0c;
+    --warning-light: #fde1b3;
+    --info-main: #22cbee;
+    --info-light: #cff8fe;
+  
+
+    --ui-background: var(--neutral-0);
+    --ui-foreground: var(--neutral-100);
+
+    --ui-primary: var(--magenta-100);
+    --ui-secondary: var(--azul-oceano-100);
+    
+    --ui-text: var(--neutral-100);
+
+}
+
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --ui-background: var(--neutral-100);
+    --ui-foreground: var(--neutral-0);
+    --ui-text: var(--neutral-0);
+  }
+} */
