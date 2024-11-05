@@ -1,0 +1,51 @@
+../..                                    | Progress: resolved 1, reused 0, downloaded 0, added 0
+ WARN  deprecated eslint@8.57.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+../..                                    | Progress: resolved 21, reused 19, downloaded 1, added 0
+../..                                    | Progress: resolved 45, reused 37, downloaded 7, added 0
+../..                                    | Progress: resolved 59, reused 48, downloaded 11, added 0
+ WARN  deprecated @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
+../..                                    | Progress: resolved 138, reused 107, downloaded 11, added 0
+../..                                    | Progress: resolved 171, reused 126, downloaded 15, added 0
+../..                                    | Progress: resolved 185, reused 137, downloaded 18, added 0
+../..                                    | Progress: resolved 196, reused 141, downloaded 22, added 0
+../..                                    | Progress: resolved 254, reused 180, downloaded 26, added 0
+../..                                    | Progress: resolved 297, reused 199, downloaded 30, added 0
+ WARN  deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+../..                                    | Progress: resolved 353, reused 228, downloaded 41, added 0
+../..                                    | Progress: resolved 385, reused 236, downloaded 48, added 0
+../..                                    | Progress: resolved 396, reused 236, downloaded 50, added 0
+ WARN  deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+ WARN  deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+../..                                    | Progress: resolved 469, reused 275, downloaded 53, added 0
+ WARN  deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+../..                                    | Progress: resolved 528, reused 311, downloaded 60, added 0
+../..                                    | Progress: resolved 612, reused 370, downloaded 60, added 0
+../..                                    | Progress: resolved 697, reused 436, downloaded 60, added 0
+../..                                    | Progress: resolved 741, reused 459, downloaded 64, added 0
+../..                                    | Progress: resolved 784, reused 561, downloaded 66, added 0
+../..                                    | Progress: resolved 787, reused 562, downloaded 66, added 0
+../..                                    | Progress: resolved 833, reused 666, downloaded 68, added 0
+../..                                    | Progress: resolved 912, reused 800, downloaded 70, added 0
+../..                                    | Progress: resolved 980, reused 870, downloaded 71, added 0
+../..                                    | Progress: resolved 1020, reused 871, downloaded 72, added 0
+../..                                    | +198 ++++++++++++++++++++
+../..                                    | Progress: resolved 1020, reused 874, downloaded 72, added 6
+../..                                    | Progress: resolved 1020, reused 874, downloaded 72, added 65
+../..                                    | Progress: resolved 1020, reused 874, downloaded 72, added 89
+../..                                    | Progress: resolved 1020, reused 874, downloaded 72, added 122
+../..                                    | Progress: resolved 1020, reused 874, downloaded 72, added 165
+../..                                    | Progress: resolved 1020, reused 874, downloaded 72, added 185
+../..                                    | Progress: resolved 1020, reused 874, downloaded 72, added 198, done
+ EBUSY  EBUSY: resource busy or locked, symlink 'C:\FUENTES\MOVIIRED\tendero 2.0\merchants-2.0\node_modules\.pnpm\storybook@8.3.6\node_modules\storybook' -> 'C:\FUENTES\MOVIIRED\tendero 2.0\merchants-2.0\node_modules\.pnpm\node_modules\storybook'
+
+pnpm: EBUSY: resource busy or locked, symlink 'C:\FUENTES\MOVIIRED\tendero 2.0\merchants-2.0\node_modules\.pnpm\storybook@8.3.6\node_modules\storybook' -> 'C:\FUENTES\MOVIIRED\tendero 2.0\merchants-2.0\node_modules\.pnpm\node_modules\storybook'
+    at async Object.symlink (node:internal/fs/promises:1000:10)
+    at async forceSymlink (C:\Users\brand\.npm-global\node_modules\pnpm\dist\pnpm.cjs:110062:9)
+    at async symlinkHoistedDependency (C:\Users\brand\.npm-global\node_modules\pnpm\dist\pnpm.cjs:133698:9)
+    at async Promise.all (index 0)
+    at async C:\Users\brand\.npm-global\node_modules\pnpm\dist\pnpm.cjs:133689:9
+    at async Promise.all (index 41)
+    at async symlinkHoistedDependencies (C:\Users\brand\.npm-global\node_modules\pnpm\dist\pnpm.cjs:133680:7)
+    at async hoist (C:\Users\brand\.npm-global\node_modules\pnpm\dist\pnpm.cjs:133593:7)
+    at async linkPackages (C:\Users\brand\.npm-global\node_modules\pnpm\dist\pnpm.cjs:197011:34)
+    at async _installInContext (C:\Users\brand\.npm-global\node_modules\pnpm\dist\pnpm.cjs:197931:25)
