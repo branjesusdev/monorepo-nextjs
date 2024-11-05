@@ -18,7 +18,5 @@ resources:
 extends:
   template: pipeline.yaml@PipelineTemplatesRepo
   parameters:
-    builder: 'maven'    # obligatorio - maven | npm | gradle | pip
+    builder: 'npm'    # obligatorio - maven | npm | gradle | pip
     manifest: 'manifest' # opcional - manifest
-    projectPath: '.' # opcional - .
-    dockerfile: 'Dockerfile' # opcional - Dockerfile
