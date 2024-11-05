@@ -1,4 +1,4 @@
-export function Code({
+export function CodeUI({
   children,
   className,
 }: {
