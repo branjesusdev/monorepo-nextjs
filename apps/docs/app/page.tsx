@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { Button } from "@repo/ui/button";
+import { ButtonUI } from "@repo/ui";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,9 +23,9 @@ export default function Home() {
         </ol>
 
         <div className={styles.ctas}>
-          <a
+          <Link
             className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="http://localhost:3002/auth"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,8 +36,8 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Deploy now
-          </a>
+            ir a auth
+          </Link>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
@@ -46,9 +47,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="docs" className={styles.secondary}>
+        <ButtonUI variant="outlined">
           Open alert
-        </Button>
+        </ButtonUI>
       </main>
       <footer className={styles.footer}>
         <a

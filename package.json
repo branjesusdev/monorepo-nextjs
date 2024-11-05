@@ -1,6 +1,10 @@
 {
   "name": "my-turborepo",
   "private": true,
+  "author": {
+    "name": "Moviired - Movii",
+    "url": "https://www.movii.com.co/"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -14,6 +18,12 @@
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
-    "node": ">=18"
-  }
+    "node": ">=18.17.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
