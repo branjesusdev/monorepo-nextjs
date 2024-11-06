@@ -8,6 +8,7 @@ import { AppProviders } from "@/entry-point/providers/AppProviders";
 const font = Lato({
   weight: ['300', '400', '700'],
   style: ['normal'],
+  subsets: ['latin-ext'],
   display: 'swap',
   variable: '--font-family',
 })

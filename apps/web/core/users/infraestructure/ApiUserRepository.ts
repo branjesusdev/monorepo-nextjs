@@ -1,3 +1,4 @@
+import { apiFetcher } from '@/features/banking/config/api-fetcher.instance';
 import type { User } from '../domain/models/User';
 import type { UserRepository } from '../domain/UserRepository';
 import { UserAdapter } from './adapters/UserAdapter';
@@ -9,12 +10,15 @@ export function createApiUserRepository(): UserRepository {
 	const cache: Map<number, User> = new Map();
 
 	async function get(id: number): Promise<User | undefined> {
+		
 		if (cache.has(id)) {
 			return cache.get(id) as User;
 		}
 
-		const response = await fetch(`${JSONPLACEHOLDER_URL}/users/${id}`);
-		const user = await response.json();
+		const apiInstance = await apiFetcher()
+
+		const response = await apiInstance.get(`${JSONPLACEHOLDER_URL}/users/${id}`);
+		const user = await response.data;
 		cache.set(id, user);
 
 		return user;
