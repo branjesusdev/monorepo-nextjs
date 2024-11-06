@@ -18,6 +18,11 @@ install dependencias
 pnpm i pakage --workspace nombre_project
 
 
+- Build package
+
+pnpm turbo run build --filter=@repo/ui
+
+
 ## Useful Links
 
 Learn more about the power of Turborepo:

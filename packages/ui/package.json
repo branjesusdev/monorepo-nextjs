@@ -1,29 +1,13 @@
 {
   "name": "@repo/ui",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
   "exports": {
     ".": "./src/base/index.ts",
-    "./feedback": {
-      "types" : "./src/feedback/index.ts",
-      "default": "./dist/feedback/index.js"
-    },
-    "./navigation": {
-      "types" : "./src/navigation/index.ts",
-      "default": "./dist/navigation/index.js"
-    },
-    "./layout": {
-      "types" : "./src/layout/index.ts",
-      "default": "./dist/layout/index.js"
-    },
-    "./icon": {
-      "types" : "./src/icons/index.ts",
-      "default": "./dist/icons/index.js"
-    },
-    "./theme": {
-      "types" : "./src/theme/index.ts",
-      "default": "./dist/theme/index.js"
-    }
+    "./feedback": "./src/feedback/index.ts",
+    "./navigation": "./src/navigation/index.ts",
+    "./layout": "./src/layout/index.ts",
+    "./icon": "./src/icons/index.ts",
+    "./theme": "./src/theme/index.ts"
   },
   "scripts": {
     "build": "tsc",
