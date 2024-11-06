@@ -1,6 +1,6 @@
 import { addons } from '@storybook/manager-api';
-import MoviiredTheme from './MoviiredTheme';
+import monorepoTheme from './monorepoTheme';
  
 addons.setConfig({
-  theme: MoviiredTheme,
+  theme: monorepoTheme,
 });

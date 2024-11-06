@@ -2,8 +2,8 @@
   "name": "merchants-2.0",
   "private": true,
   "author": {
-    "name": "Moviired - Movii",
-    "url": "https://www.movii.com.co/"
+    "name": "monorepo - lib",
+    "url": "https://www.lib.com.co/"
   },
   "scripts": {
     "build": "turbo build",

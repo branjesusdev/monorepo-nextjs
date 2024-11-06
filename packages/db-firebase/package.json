@@ -2,7 +2,7 @@
   "name": "@repo/db-firebase",
   "version": "1.0.0",
   "private": true,
-  "author": "Moviired",
+  "author": "monorepo",
   "license": "ISC",
   "type": "module",
   "sideEffects": false,
